@@ -1,0 +1,51 @@
+{
+  "name": "szablon-wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./src/js/app.js --output ./dist/app.js",
+    "build": "webpack --mode production ./src/js/app.js --output ./dist/app.js",
+    "watch": "webpack --watch --mode development ./src/js/app.js --output ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "font-awesome-loader": "^1.0.2",
+    "html5shiv": "^3.7.3",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "respond.js": "^1.4.2",
+    "sass-loader": "^7.1.0",
+    "selectivizr": "^1.0.3",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bootstrap": "^4.3.1",
+    "browser-update": "^3.2.11",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery.mmenu": "^7.3.3",
+    "js-cookie": "^2.2.0",
+    "popper.js": "^1.14.7",
+    "slick-carousel": "^1.8.1",
+    "typed.js": "^2.0.11"
+  }
+}

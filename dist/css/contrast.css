@@ -1,0 +1,194 @@
+body {
+    background: #000;
+    color: #ff0;
+}
+
+a {
+    color: #f00;
+}
+
+header :focus {
+    box-shadow: none;
+    outline: 2px dotted #f00;
+    outline-offset: 2px;
+}
+
+a:focus, a:hover {
+    color: #f00;
+}
+
+header {
+    background: #000;
+}
+
+.site-menu ul li a {
+    color: #ff0;
+}
+
+.site-menu ul li a:hover {
+    color: #f00;
+}
+
+.site-menu ul li ul li a {
+    background: #000;
+}
+
+.site-menu ul li:hover > a, .site-menu ul li.hover > a {
+    color: #f00;
+}
+
+.font .font__list .font__item .font__link {
+    color: #ff0;
+}
+
+.font .font__list .font__item .font__link:hover {
+    color: #f00;
+}
+
+.font .font__list .font__item.is-active .font__link {
+    color: #f00;
+}
+
+.contrast.is-active {
+    color: #f00;
+}
+
+header .searchform .search-btn {
+    color: #ff0;
+}
+
+header .searchform .search-btn:hover {
+    color: #f00;
+}
+
+header .searchform .search-form {
+    background: #000;
+}
+
+header .searchform .search-form input {
+    background: #000;
+    border: 1px solid #ff0;
+    color: #fff;
+}
+
+header .searchform .search-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ff0;
+}
+
+header .searchform .search-form input::-moz-placeholder { /* Firefox 19+ */
+    color: #ff0;
+}
+
+header .searchform .search-form input:-ms-input-placeholder { /* IE 10+ */
+    color: #ff0;
+}
+
+header .searchform .search-form input:-moz-placeholder { /* Firefox 18- */
+    color: #ff0;
+}
+
+header .searchform .search-form input.search-submit {
+    color: #ff0;
+}
+
+header .searchform .search-form input.search-submit:hover {
+    color: #000;
+    background: #ff0;
+}
+
+.content .event-header {
+    color: #fff;
+}
+
+.timeline-centered .timeline-item .timeline-content {
+    background: #000;
+    border: 1px solid #ff0;
+}
+
+.timeline-centered .timeline-item .timeline-content .category {
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+
+.timeline-centered .timeline-item .timeline-content .timeline-title {
+    color: #ff0;
+}
+
+.content .item-news {
+    border: 1px solid #ff0;
+    background: #000;
+}
+
+.content .item-news .news-desc h4 a {
+    color: #f00;
+}
+
+.content .item-news .news-desc .category {
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+
+
+.content .news-desc .category {
+    color: #fff;
+}
+
+.content .header-page {
+    color: #fff;
+}
+
+.content.interview .wp-block-quote {
+    color: #fff;
+    border-left: 4px solid #fff;
+    background: #000;
+}
+
+.custom-frame {
+    color: #f00;
+}
+
+.footer {
+    background: #000;
+    color: #ff0;
+}
+
+.footer a {
+    color: #f00;
+}
+
+.footer .social_icons li a {
+    color: #ff0;
+}
+
+.content .acymailing_form input {
+    border: 1px solid #ff0;
+    background: none;
+    color: #ff0;
+}
+
+.content .acysubbuttons button.subbutton {
+    background: #000;
+    border: 1px solid #ff0;
+    color: #ff0;
+}
+
+.content .acysubbuttons button.subbutton:hover {
+    background: #ff0;
+    border: 1px solid #ff0;
+    color: #000;
+}
+
+.content.partners .item-partner a {
+    color: #f00;
+}
+
+.wp-block-image img {
+    border: 1px solid #ff0;
+}
+
+table td{
+    color: #fff;
+}
+.content .item-news .news-desc .date{
+    color: #fff;
+}

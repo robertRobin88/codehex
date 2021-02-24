@@ -1,0 +1,24 @@
+//// Google Fonts
+//@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700&display=swap&subset=latin-ext');
+//@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap&subset=latin-ext');
+
+// Font Awesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+
+// colors
+$gray: #555555;
+$blue: #0072bc;
+$lightblack: #191919;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick";
+@import "~jquery.mmenu/dist/jquery.mmenu.all";
+@import "accessibility";
+@import "wordpress";
+@import "mmenu";
+@import "theme";
